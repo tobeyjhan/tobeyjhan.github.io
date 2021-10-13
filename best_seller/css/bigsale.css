@@ -1,0 +1,292 @@
+/*倒數計時*/
+.countdown_title {
+  font-size: 2.0em;
+/*  line-height: 2.8;*/
+  padding-top: 0.266em;
+  padding-bottom: 0.266em;
+  color: #fde5b5;
+  font-weight: bold;
+}
+
+.countDownTimer {
+/*  margin: 0 auto;*/
+  color: #f885fa;
+  font-weight: 600;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.onlyToday .countdown_title .countDownTimer .txt {
+  font-size: 0.65em;
+/*  padding: 0 0 0 20px;*/
+}
+
+.countDownTimer span .colon {
+/*  color: #ffffff;*/
+  font-size: 0.5em;
+}
+
+.onlyToday .countdown_title .countDownTimer {
+    font-size: 0.8em;
+}
+.days, .hours, .minutes,.seconds,.cdtitle,.miliseconds {
+	color: #FFF;
+}
+
+.countdownC{
+	margin: 0 auto;
+/*	padding-bottom: 30px;*/
+/*	line-height: 2.7;*/
+}
+@media (max-width: 1023px) {
+  .countdown_title {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 768px) {
+/*
+  .eventCountdown {
+    padding-bottom: 30px;
+  }
+*/
+  .countdown_title {
+    font-size: 1.1em;
+  }
+}
+
+.eventCountdown .countDownDays {
+  list-style: none;
+  margin: 0;
+  height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.eventCountdown .dayList {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.eventCountdown .dayList.day1 {
+  background-image: url(../images/countdown_1.png);
+}
+
+.eventCountdown .dayList.day1.day_on {
+  background-image: url(../images/countdown_1_active.png);
+}
+
+.eventCountdown .dayList.day2 {
+  background-image: url(../images/countdown_2.png);
+}
+
+.eventCountdown .dayList.day2.day_on {
+  background-image: url(../images/countdown_2_active.png);
+}
+
+.eventCountdown .dayList.day3 {
+  background-image: url(../images/countdown_3.png);
+}
+
+.eventCountdown .dayList.day3.day_on {
+  background-image: url(../images/countdown_3_active.png);
+}
+
+@media (max-width:768px) {
+  .eventCountdown {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .eventCountdown .countDownDays {
+    height: 17.63vw;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .eventCountdown .dayList.day1 {
+    background-image: url(../images/countdown_1_m.png);
+  }
+  .eventCountdown .dayList.day1.day_on {
+    background-image: url(../images/countdown_1_active_m.png);
+  }
+  .eventCountdown .dayList.day2 {
+    background-image: url(../images/countdown_2_m.png);
+  }
+  .eventCountdown .dayList.day2.day_on {
+    background-image: url(../images/countdown_2_active_m.png);
+  }
+  .eventCountdown .dayList.day3 {
+    background-image: url(../images/countdown_3_m.png);
+  }
+  .eventCountdown .dayList.day3.day_on {
+    background-image: url(../images/countdown_3_active_m.png);
+  }
+}
+
+/*彩帶*/
+.confetiiBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+/*全站優惠*/
+.sectionTitle{
+	margin: 0 auto;
+	padding-bottom: 15px;
+}
+
+.sectionTitleC{
+	padding: 0.6em 0;
+}
+
+.discountList img{
+	width: 100%;
+}
+
+.discountList{
+/*	padding: 4px;*/
+}
+
+/*早鳥折價序號*/
+.ctaboxH{
+/*	margin: 1.8em 0;*/
+	z-index: 99999;
+}
+.ctabox{
+	width: 100%;
+	height: 314px;
+}
+
+.ctabox1,.ctabox2,.ctabox3,.ctabox4,.ctabox5,.ctabox6,.ctabox7,.ctabox8{
+  height: 314px;
+  background-position: center;
+}
+
+.ctabox1 {
+  background-image: url(../images/618event_03_coupon_01.jpg);
+}
+
+.ctabox2 {
+  background-image: url(../images/618event_03_coupon_02.gif);
+}
+
+.ctabox3 {
+  background-image: url(../images/618event_03_coupon_03.jpg);
+}
+
+@media (max-width:768px) {
+	.ctabox1,.ctabox2,.ctabox3{
+	  height: auto;
+	  background-position: center;
+	}
+}
+
+/*24hr限定秒殺組*/
+
+.banner24HR {
+/*	padding: 1em 0.5em;*/
+/*	background-color: #710009;*/
+}
+
+.sale24HR img{
+/*	width: 55%;*/
+	float:right;
+	padding-right: 5px;
+}
+
+.banner24HR .countdown_title{
+	padding:0;
+}
+
+
+@media (max-width:992px) {
+	.onlyToday .countdown_title .countDownTimer{
+		font-size: 1em;
+		
+	}
+	.banner24HR .countdown_title{
+		padding:0;
+	}
+
+	.sale24HR img{
+		width: 55%;
+		float: inherit;
+		margin: 0 auto;
+	}
+}
+
+.todayWrap {
+/*	background: url("../images/24hr/618event_05_BG_09.jpg") center no-repeat;*/
+}
+
+.todayWrap2 {
+	background: url("../images/0305_enent01_01_01.jpg") center no-repeat;
+}
+
+
+@media (max-width:767px) {
+	.todayWrap2 {
+		background: none;
+		
+	}
+	
+	.onlyToday .countdown_title .countDownTimer .txt {
+	  font-size: 0.6em;
+	/*  padding: 0 0 0 20px;*/
+	}
+
+	.countDownTimer span .colon {
+	/*  color: #ffffff;*/
+	  font-size: 0.6em;
+	}
+
+	.onlyToday .countdown_title .countDownTimer {
+		font-size: 0.8em;
+	}
+	.days, .hours, .minutes,.seconds,.cdtitle,.miliseconds {
+		color: #FFF;
+	}
+}
+.carousel-fade .carousel-item {
+		opacity: 0;
+		transition: opacity 2.5s ease-in-out;
+}
+.carousel-fade .carousel-item .active {
+	opacity:0;
+}
+.swiper-container img { 
+	max-height: 100%;
+	border-radius: 10px;
+}
+
+.swiper-container {
+        width: 100%;
+        height: 100%;
+	 	padding-top: 2.5em;
+    }
+    .swiper-slide {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      /*width:90%;*/ 
+    }
+
+.swiper-pagination-bullet {
+    background: #fff!important;
+}
+.swiper-pagination-bullet-active {
+    background: #bf00be !important;
+}
