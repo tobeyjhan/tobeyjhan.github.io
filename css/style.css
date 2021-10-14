@@ -116,8 +116,9 @@ body {
 	}
 	.font-experience-time {
 		letter-spacing: 0.4em;
-		font-size: 0.9em;
+		font-size: 1em;
 		text-align: center; 
+		text-decoration: none;
 	}
 	.font-design{
 		font-size: 2em;
