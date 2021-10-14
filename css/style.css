@@ -5,6 +5,12 @@
     padding-top: 150px;
 }
 
+@media screen and (max-width:414px){
+	.main {
+    	padding-top: 80px;
+	}
+}
+
 .navbar-brand {
     font-family: "Sofia", sans-serif;
 }
@@ -70,6 +76,52 @@ body {
     padding-top: 0.5em;
     font-weight: 400;
     letter-spacing: 0.02em;
+}
+
+@media screen and (max-width:414px){
+	.profile-font {
+    	padding: 0 2em;
+	}
+	
+	.font-01 {
+		font-size: 5em;
+		text-align: center; 
+		margin-top: -0.4em;
+	}
+	
+	.font-02 {    
+		font-size: 0.9em;
+		text-align: center;
+	}
+	
+	.font-03 {
+		letter-spacing: 0.3em;
+		font-size: 0.5em;
+	}
+	
+	.font-03 ul {
+    	display: inline-block;
+		text-align: left;
+	}
+	
+	.font-skill {
+		font-size: 0.8em;
+	}
+	.font-title{
+		text-align: center; 
+	}
+	.font-experience-title {
+		font-size: 0.9em;
+		text-align: center; 
+	}
+	.font-experience-time {
+		letter-spacing: 0.4em;
+		font-size: 0.5em;
+		text-align: center; 
+	}
+	.font-design{
+		font-size: 2em;
+	}
 }
 
 /* list skill */
@@ -159,6 +211,13 @@ body {
     background-color: #ffffff8f;
 }
 
+@media screen and (max-width:414px){
+	.experience {
+		margin-top: 0.5em;
+		padding: 0 2em 2em 2em;
+	}
+}
+
 /*swiper*/
 .swiper-main{
     overflow: hidden;
@@ -195,6 +254,19 @@ body {
     object-fit: cover;
 }
 
+@media screen and (max-width:414px){
+	.listSkill li {
+		padding: 0.5em;
+	}
+	.swiper {
+		padding: 1em;
+	}
+	.imgP {
+		padding: 5px;
+	}
+}
+
+/*orther*/
 img{ 
 width: 100%;
 }
@@ -222,4 +294,10 @@ a:hover {
 	width: 50%;
 	margin: 0 auto;
 	padding: 20px 0;
+}
+
+@media screen and (max-width:414px){
+	.line{
+		padding: 15px 0 0 0;
+	}
 }
