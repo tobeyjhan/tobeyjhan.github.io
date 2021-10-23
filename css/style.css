@@ -234,6 +234,11 @@ body {
     padding: 3em;
 }
 
+.swiper.swiper02 {
+    padding: 1em 3em;
+	overflow: hidden;
+}
+
 .swiper-slide {
     text-align: center;
 
